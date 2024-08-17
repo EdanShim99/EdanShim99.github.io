@@ -77,7 +77,7 @@ Interactive Dashboard Using Tableau
                     activeSheet.getDataSources().forEach(function (dataSource) {
                         dataSource.getSummaryDataAsync().then(function (data) {
                             // Adjust the zoom level here
-                            viz.setFrameSize({width: 1500, height: 1000}); // Increase the frame size to zoom out
+                            viz.setFrameSize({width: 1900, height: 1000}); // Increase the frame size to zoom out
                         });
                     });
                 }
