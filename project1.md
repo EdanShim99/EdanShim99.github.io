@@ -1,5 +1,5 @@
 layout: default
-title: My Page Title
+title: Excel Dashboard
 
 Excel Dashboard created using customer data on coffee sales <br>
 Use of functions such as xlookup, index, match <br>
