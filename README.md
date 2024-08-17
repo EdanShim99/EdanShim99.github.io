@@ -16,10 +16,25 @@ Interactive Dashboard Using Tableau
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau Embed</title>
+    <style>
+        /* Ensure that the parent container can expand */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #viz1723858617273 {
+            width: 100%;  /* Make sure the div takes up the full width */
+            max-width: 1200px; /* Set a maximum width */
+            height: 600px; /* Set the height */
+            margin: 0 auto; /* Center the div */
+        }
+    </style>
 </head>
 <body>
     <!-- Tableau Embed Code -->
-    <div class='tableauPlaceholder' id='viz1723858617273' style='position: relative; width: 100%; max-width: 1200px; height: 600px;'>
+    <div class='tableauPlaceholder' id='viz1723858617273'>
         <noscript>
             <a href='#'>
                 <img alt='Tableau Visualization' src='https://public.tableau.com/static/images/Pr/Practice2_17236779278010/Dashboard1/1_rss.png' style='border: none' />
@@ -45,8 +60,8 @@ Interactive Dashboard Using Tableau
     <script type='text/javascript'>
         var divElement = document.getElementById('viz1723858617273');
         var vizElement = divElement.getElementsByTagName('object')[0];
-        vizElement.style.width = '100%';
-        vizElement.style.height = '600px';  // Set a fixed height
+        vizElement.style.width = '100%';  // Ensure the object takes full width
+        vizElement.style.height = '100%'; // Match the height to the div
         var scriptElement = document.createElement('script');
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
         vizElement.parentNode.insertBefore(scriptElement, vizElement);
