@@ -17,7 +17,6 @@ Interactive Dashboard Using Tableau
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau Embed</title>
     <style>
-        /* Ensure that the parent container can expand */
         body, html {
             margin: 0;
             padding: 0;
@@ -25,10 +24,10 @@ Interactive Dashboard Using Tableau
             height: 100%;
         }
         #viz1723858617273 {
-            width: 100%;  /* Make sure the div takes up the full width */
-            max-width: 1600px; /* Set a maximum width */
-            height: 900px; /* Set the height */
-            margin: 0 auto; /* Center the div */
+            width: 100%;
+            max-width: 1200px;
+            height: 600px;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -60,10 +59,30 @@ Interactive Dashboard Using Tableau
     <script type='text/javascript'>
         var divElement = document.getElementById('viz1723858617273');
         var vizElement = divElement.getElementsByTagName('object')[0];
-        vizElement.style.width = '100%';  // Ensure the object takes full width
-        vizElement.style.height = '100%'; // Match the height to the div
+        vizElement.style.width = '100%';
+        vizElement.style.height = '100%';
+
         var scriptElement = document.createElement('script');
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        scriptElement.onload = function () {
+            var viz = new tableau.Viz(vizElement, 'https://public.tableau.com/views/Practice2_17236779278010/Dashboard1', {
+                width: '100%',
+                height: '100%',
+                hideTabs: false,
+                hideToolbar: false,
+                onFirstInteractive: function () {
+                    var workbook = viz.getWorkbook();
+                    var activeSheet = workbook.getActiveSheet();
+                    // Example: Set the view to zoom out
+                    activeSheet.getDataSources().forEach(function (dataSource) {
+                        dataSource.getSummaryDataAsync().then(function (data) {
+                            // Adjust the zoom level here
+                            viz.setFrameSize({width: 1500, height: 1000}); // Increase the frame size to zoom out
+                        });
+                    });
+                }
+            });
+        };
         vizElement.parentNode.insertBefore(scriptElement, vizElement);
     </script>
 </body>
