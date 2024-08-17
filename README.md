@@ -11,20 +11,6 @@ Interactive Dashboard Using Excel
 
 
 Interactive Dashboard Using Tableau
-<div style="width: 100%; height: 900px; margin-bottom: 20px;">
-    <object class="tableauViz" style="width: 100%; height: 100%;">
-        <param name="host_url" value="https://public.tableau.com/" />
-        <param name="embed_code_version" value="3" />
-        <param name="site_root" value="" />
-        <param name="name" value="Practice2_17236779278010/Dashboard1" />
-        <param name="tabs" value="no" />
-        <param name="toolbar" value="yes" />
-        <param name="static_image" value="https://public.tableau.com/static/images/Pr/Practice2_17236779278010/Dashboard1/1.png" />
-        <param name="animate_transition" value="yes" />
-        <param name="display_static_image" value="yes" />
-        <param name="display_spinner" value="yes" />
-        <param name="display_overlay" value="yes" />
-        <param name="display_count" value="yes" />
-        <param name="language" value="en-US" />
-    </object>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="https://public.tableau.com/views/Practice2_17236779278010/Dashboard1?:showVizHome=no&:embed=true" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
