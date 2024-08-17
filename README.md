@@ -11,10 +11,6 @@ Interactive Dashboard Using Excel
 
 
 Interactive Dashboard Using Tableau
-# Edan Shim
-
-Welcome to my GitHub Page.
-
 <style>
 .responsive-tableau {
   position: relative;
@@ -63,8 +59,3 @@ Welcome to my GitHub Page.
   window.addEventListener('load', resizeTableau);
   window.addEventListener('resize', resizeTableau);
 </script>
-
-## More Content
-
-You can add more Markdown content here.
-
