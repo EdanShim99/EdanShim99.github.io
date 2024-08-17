@@ -26,8 +26,8 @@ Interactive Dashboard Using Tableau
         }
         #viz1723858617273 {
             width: 100%;  /* Make sure the div takes up the full width */
-            max-width: 1200px; /* Set a maximum width */
-            height: 600px; /* Set the height */
+            max-width: 1600px; /* Set a maximum width */
+            height: 900px; /* Set the height */
             margin: 0 auto; /* Center the div */
         }
     </style>
