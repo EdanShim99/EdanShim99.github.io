@@ -1,5 +1,8 @@
-Excel Dashboard created using customer data on coffee sales
-Use of functions such as xlookup, index, match,
+layout: default
+title: My Page Title
+
+Excel Dashboard created using customer data on coffee sales <br>
+Use of functions such as xlookup, index, match <br>
 Utilizes pivot charts, pivot tables, and various slicers
 
 
