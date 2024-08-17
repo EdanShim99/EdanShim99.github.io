@@ -11,8 +11,7 @@ Interactive Dashboard Using Excel
 
 
 Interactive Dashboard Using Tableau
-<div id="tableauViz" style="width:100%; height:500px;">
-</div>
+<div id="tableauViz" style="width:100%; height:500px;"></div>
 
 <script type="text/javascript" src="https://public.tableau.com/javascripts/api/viz_v1.js"></script>
 <script type="text/javascript">
