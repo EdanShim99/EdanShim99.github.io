@@ -19,13 +19,13 @@ Interactive Dashboard Using Tableau
 </head>
 <body>
     <!-- Tableau Embed Code -->
-    <div class='tableauPlaceholder' id='viz1723858617273' style='position: relative'>
+    <div class='tableauPlaceholder' id='viz1723858617273' style='position: relative; width: 100%; max-width: 1200px; height: 600px;'>
         <noscript>
             <a href='#'>
                 <img alt='Tableau Visualization' src='https://public.tableau.com/static/images/Pr/Practice2_17236779278010/Dashboard1/1_rss.png' style='border: none' />
             </a>
         </noscript>
-        <object class='tableauViz' style='display:none;'>
+        <object class='tableauViz' style='width: 100%; height: 100%;'>
             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
             <param name='embed_code_version' value='3' />
             <param name='site_root' value='' />
@@ -45,25 +45,13 @@ Interactive Dashboard Using Tableau
     <script type='text/javascript'>
         var divElement = document.getElementById('viz1723858617273');
         var vizElement = divElement.getElementsByTagName('object')[0];
-        if (divElement.offsetWidth > 800) {
-            vizElement.style.minWidth = '1200px';
-            vizElement.style.maxWidth = '100%';
-            vizElement.style.minHeight = '850px';
-            vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
-        } else if (divElement.offsetWidth > 500) {
-            vizElement.style.minWidth = '1200px';
-            vizElement.style.maxWidth = '100%';
-            vizElement.style.minHeight = '850px';
-            vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
-        } else {
-            vizElement.style.width = '100%';
-            vizElement.style.minHeight = '1500px';
-            vizElement.style.maxHeight = (divElement.offsetWidth * 1.77) + 'px';
-        }
+        vizElement.style.width = '100%';
+        vizElement.style.height = '600px';  // Set a fixed height
         var scriptElement = document.createElement('script');
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
         vizElement.parentNode.insertBefore(scriptElement, vizElement);
     </script>
 </body>
 </html>
+
 
