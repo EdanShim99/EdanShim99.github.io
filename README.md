@@ -4,7 +4,7 @@
 
 ###Projects
 
-Interactive Dashboard Using Excel
+Interactive Dashboard Using Excel <br>
 [Excel Dashboard] (project1.html)
 
 
