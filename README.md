@@ -10,13 +10,13 @@ Interactive Dashboard Using Excel
 </div>
 
 Interactive Dashboard Using Tableau
-<div class='tableauPlaceholder' id='viz1723858617273' style='position: relative'>
+<div class='tableauPlaceholder' id='viz1723858617273' style='position: relative; width: 100%; max-width: 1600px; height: 900px; margin: 0 auto;'>
     <noscript>
         <a href='#'>
             <img alt=' ' src='https://public.tableau.com/static/images/Pr/Practice2_17236779278010/Dashboard1/1_rss.png' style='border: none' />
         </a>
     </noscript>
-    <object class='tableauViz'  style='display:none;'>
+    <object class='tableauViz' style='display:none;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
         <param name='embed_code_version' value='3' /> 
         <param name='site_root' value='' />
@@ -35,21 +35,21 @@ Interactive Dashboard Using Tableau
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1723858617273');
     var vizElement = divElement.getElementsByTagName('object')[0];
-    if ( divElement.offsetWidth > 800 ) { 
-        vizElement.style.minWidth='1200px';
-        vizElement.style.maxWidth='100%';
-        vizElement.style.minHeight='850px';
-        vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
-    } else if ( divElement.offsetWidth > 500 ) { 
-        vizElement.style.minWidth='1200px';
-        vizElement.style.maxWidth='100%';
-        vizElement.style.minHeight='850px';
-        vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
-    } else { 
-        vizElement.style.width='100%';
-        vizElement.style.minHeight='1500px';
-        vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';
+    
+    function resizeViz() {
+        var width = Math.min(divElement.offsetWidth, 1600);
+        var height = (width / 16) * 9;  // Maintain 16:9 aspect ratio
+        
+        vizElement.style.width = width + 'px';
+        vizElement.style.height = height + 'px';
     }
+    
+    // Initial resize
+    resizeViz();
+    
+    // Add event listener for window resize
+    window.addEventListener('resize', resizeViz);
+    
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
