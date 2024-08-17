@@ -1,2 +1,5 @@
 title: Edan Shim
 theme: jekyll-theme-minimal
+markdown: kramdown
+kramdown:
+  parse_block_html: true
