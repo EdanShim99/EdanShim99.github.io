@@ -25,8 +25,8 @@ Interactive Dashboard Using Tableau
         }
         #viz1723858617273 {
             width: 100%;
-            max-width: 1200px;
-            height: 600px;
+            max-width: 1600px;
+            height: 900px;
             margin: 0 auto;
         }
     </style>
