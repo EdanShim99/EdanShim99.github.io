@@ -11,18 +11,4 @@ Interactive Dashboard Using Excel
 
 
 Interactive Dashboard Using Tableau
-<div id='tableauViz' style='width: 100%; height: 600px;'></div>
-
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
-<script type='text/javascript'>
-    var divElement = document.getElementById('tableauViz');
-    var vizElement = divElement;
-    var options = {
-        url: 'https://public.tableau.com/views/Practice2_17236779278010/Dashboard1',
-        width: '100%',
-        height: '600px',
-        hideTabs: true,
-        hideToolbar: true,
-    };
-    var viz = new tableau.Viz(vizElement, options.url, options);
-</script>
+<iframe src="https://public.tableau.com/views/Practice2_17236779278010/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="600" frameborder="0"></iframe>
