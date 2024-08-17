@@ -11,4 +11,4 @@ Interactive Dashboard Using Excel
 
 
 Interactive Dashboard Using Tableau
-[![Tableau Dashboard](https://public.tableau.com/static/images/Pr/Practice2_17236779278010/Dashboard1/1_rss.png)](https://public.tableau.com/views/Practice2_17236779278010/Dashboard1?:showVizHome=no&:embed=true)
+<iframe src="https://public.tableau.com/views/Practice2_17236779278010/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="600" frameborder="0"></iframe>
