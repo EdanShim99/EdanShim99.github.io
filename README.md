@@ -10,13 +10,13 @@ Interactive Dashboard Using Excel
 </div>
 
 Interactive Dashboard Using Tableau
-<div class='tableauPlaceholder' id='viz1723858617273' style='position: relative; width: 100%; max-width: 1600px; height: 900px; margin: 0 auto;'>
+<div class='tableauPlaceholder' id='viz1723858617273' style='position: relative; width: 100%; height: 0; padding-bottom: 56.25%; max-width: 1600px; max-height: 900px; margin: 0 auto;'>
     <noscript>
         <a href='#'>
             <img alt=' ' src='https://public.tableau.com/static/images/Pr/Practice2_17236779278010/Dashboard1/1_rss.png' style='border: none' />
         </a>
     </noscript>
-    <object class='tableauViz' style='display:none;'>
+    <object class='tableauViz' style='position: absolute; top: 0; left: 0; right: 0; bottom: 0;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
         <param name='embed_code_version' value='3' /> 
         <param name='site_root' value='' />
@@ -37,11 +37,20 @@ Interactive Dashboard Using Tableau
     var vizElement = divElement.getElementsByTagName('object')[0];
     
     function resizeViz() {
-        var width = Math.min(divElement.offsetWidth, 1600);
-        var height = (width / 16) * 9;  // Maintain 16:9 aspect ratio
+        var parentWidth = divElement.offsetWidth;
+        var parentHeight = divElement.offsetHeight;
         
-        vizElement.style.width = width + 'px';
-        vizElement.style.height = height + 'px';
+        vizElement.style.width = '100%';
+        vizElement.style.height = '100%';
+        
+        // Ensure the visualization doesn't exceed 1600x900
+        if (parentWidth > 1600 || parentHeight > 900) {
+            var scale = Math.min(1600 / parentWidth, 900 / parentHeight);
+            vizElement.style.transformOrigin = 'top left';
+            vizElement.style.transform = 'scale(' + scale + ')';
+        } else {
+            vizElement.style.transform = 'none';
+        }
     }
     
     // Initial resize
