@@ -8,7 +8,7 @@
 
 ## Projects
 <a href="project1.html">
-  <img src="/images/thumbnail.png" alt="Thumbnail" style="border-radius: 40px;" width="600">
+  <img src="/images/thumbnail1.png" alt="Thumbnail" style="border-radius: 40px;" width="600">
 </a>
 
 ### Interactive Dashboard Using Excel [Link](project1.html) <br>
