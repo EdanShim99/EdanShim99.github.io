@@ -10,7 +10,7 @@
 ### Interactive Dashboard Using Excel <br>
 
 [Excel Dashboard](project1.html)
-
+<span class="highlight-blue-rounded">Excel</span>
 
 ### Interactive Dashboard Using Tableau <br>
 [Tableau Dashboard](project2.html)
