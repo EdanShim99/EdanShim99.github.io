@@ -5,12 +5,12 @@
 
 // Custom CSS for Minimal theme
 .wrapper {
-  width: 900px;  // Adjust this value as needed
+  width: 900px; 
   margin: 0 auto;
 }
 
 section {
-  width: 550px;  // Adjust this value as needed
+  width: 650px;  
   float: right;
   padding-bottom: 50px;
 }
