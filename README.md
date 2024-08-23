@@ -2,7 +2,7 @@
 #### Technical Skills: Excel, SQL, Tableau
 
 ## Education
-- B.S. in Joint Mathetmatics and Economics | University of California, San Diego (_June 2021_)
+- B.S. in Joint Mathetmatics-Economics | University of California, San Diego (_June 2021_)
 
 ## Projects
 Interactive Dashboard Using Excel <br>
