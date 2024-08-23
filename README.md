@@ -1,5 +1,5 @@
 # Data Analyst
-**Technical Skills: Excel, SQL, Tableau
+** Technical Skills: Excel, SQL, Tableau
 
 ## Education
 
