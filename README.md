@@ -9,8 +9,10 @@
 
 ### Interactive Dashboard Using Excel <br>
 
-[Excel Dashboard](project1.html)
 <span class="highlight-blue-rounded">Excel</span>
+
+[Excel Dashboard](project1.html)
+
 
 ### Interactive Dashboard Using Tableau <br>
 [Tableau Dashboard](project2.html)
