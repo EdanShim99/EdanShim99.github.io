@@ -6,8 +6,8 @@
 
 ## Projects
 <img src="/images/thumbnail.png" alt="Thumbnail" style="border-radius: 10px;" width="600">
+### Interactive Dashboard Using Excel <br>
 
-Interactive Dashboard Using Excel <br>
 [Excel Dashboard](project1.html)
 
 
