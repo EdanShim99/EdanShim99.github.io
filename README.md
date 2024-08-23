@@ -5,7 +5,9 @@
   B.S. in Joint Mathetmatics-Economics | University of California, San Diego (_June 2021_)
 
 ## Projects
-<img src="/images/thumbnail.png" alt="Thumbnail" style="border-radius: 30px;" width="600">
+<a href="project1.html">
+  <img src="/images/thumbnail.png" alt="Thumbnail" style="border-radius: 30px;" width="600">
+</a>
 
 ### Interactive Dashboard Using Excel [Link](project1.html) <br>
 
