@@ -10,6 +10,9 @@
 ### Interactive Dashboard Using Excel <br>
 
 <span class="highlight-blue-rounded">Excel</span>
+<span class="highlight-green-rounded">xlookup</span>
+<span class="highlight-green-rounded">Index Match</span>
+<span class="highlight-green-rounded">Pivot Table</span>
 
 [Excel Dashboard](project1.html)
 
