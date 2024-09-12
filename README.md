@@ -8,7 +8,9 @@
 
 ## Projects
 <a href="project1.html">
-  <img src="/images/thumbnail1.png" alt="Thumbnail" style="border-radius: 30px;" width="600">
+  <img src="/images/thumbnail1.png" alt="Thumbnail" 
+       style="border-radius: 30px; border: 2px solid #000000;" 
+       width="600">
 </a>
 
 ### [Interactive Dashboard Using Excel](project1.html) <br>
@@ -22,12 +24,13 @@ In this Excel-based project, I demonstrated advanced data analysis and visualiza
 
 <br>
 
-
-
 <a href="project2.html">
-  <img src="/images/thumbnail2.png" alt="Thumbnail" style="border-radius: 30px;" width="600">
+  <img src="/images/thumbnail2.png" alt="Thumbnail" 
+       style="border-radius: 30px; border: 2px solid #000000;" 
+       width="600">
 </a>
-### Interactive Dashboard Using Tableau [Link](project2.html) <br>
+
+### [Interactive Dashboard Using Tableau](project2.html) <br>
 
 <span class="highlight-blue-rounded">Tableau</span>
 
