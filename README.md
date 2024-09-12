@@ -11,7 +11,7 @@
   <img src="/images/thumbnail1.png" alt="Thumbnail" style="border-radius: 30px;" width="600">
 </a>
 
-### Interactive Dashboard Using Excel [Link](project1.html) <br>
+### [Interactive Dashboard Using Excel](project1.html) <br>
 
 <span class="highlight-blue-rounded">Excel</span>
 <span class="highlight-green-rounded">xlookup</span>
