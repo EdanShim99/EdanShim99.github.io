@@ -12,8 +12,11 @@
 header {
   width: 220px;
   float: left;
-  position: fixed;
-  -webkit-font-smoothing: subpixel-antialiased;
+  position: sticky;
+  top: 0;
+  flex-shrink: 0;
+  align-self: flex-start;
+  z-index: 1;
 }
 
 section {
