@@ -24,7 +24,7 @@ In this Excel-based project, I demonstrated advanced data analysis and visualiza
 
 
 
-<a href="project1.html">
+<a href="project2.html">
   <img src="/images/thumbnail2.png" alt="Thumbnail" style="border-radius: 30px;" width="600">
 </a>
 ### Interactive Dashboard Using Tableau [Link](project2.html) <br>
