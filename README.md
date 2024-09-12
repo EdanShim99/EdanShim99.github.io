@@ -9,7 +9,7 @@
 ## Projects
 <a href="project1.html">
   <img src="/images/thumbnail1.png" alt="Thumbnail" 
-       style="border-radius: 30px; border: 2px solid #000000; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);"
+       style="border-radius: 30px; border: 2px solid #000000;"
        width="600">
 </a>
 
