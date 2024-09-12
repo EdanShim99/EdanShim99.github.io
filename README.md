@@ -20,7 +20,7 @@
 <span class="highlight-green-rounded">Index Match</span>
 <span class="highlight-green-rounded">Pivot Table</span>
 
-In this Excel-based project, I demonstrated advanced data analysis and visualization skills by creating an interactive dashboard for coffee order analysis. The process began with data organization, where I employed sophisticated functions like XLOOKUP and INDEX-MATCH to efficiently match coffee orders with corresponding customer information. After thoroughly cleaning and formatting the data, I leveraged Excel's pivot table functionality to summarize and analyze the organized information. The analysis was then brought to life through a dynamic pivot chart, providing clear visual representations of key insights. To enhance user interactivity and data exploration, I integrated additional features such as a timeline for temporal filtering and slicers for multidimensional data segmentation. The final product is a comprehensive, user-friendly dashboard that allows for in-depth analysis of coffee orders, showcasing my proficiency in Excel, data manipulation, and creating actionable business intelligence tools.
+With this Excel-based project, I am demonstrating data analysis and visualization skills using coffee order data in order to create an interactive dashboard. Starting with customer and order data, I utilize functions such as XLOOKUP and INDEX-MATCH in order to organize and create new columns to match customers with their corresponding coffee orders. I then analyzed the data using a pivot table, which was then brought to life using a dynamic pivot chart. To further enhance user interactivity, I integrated features such as a timeline and slicers. The final product is a comprehensive, user-friendly dashboard that allows for in-depth analysis of coffee orders.
 
 <br>
 
@@ -34,5 +34,6 @@ In this Excel-based project, I demonstrated advanced data analysis and visualiza
 
 <span class="highlight-blue-rounded">Tableau</span>
 
+In this Tableau-based project, I demonstrate visualization skills using airline data in order to create a dynamic, interactive dashboard on customer ratings. Importing in real data from British Airways, I created a custom parameter and calculated field to be able to dynamically display the type of rating. Several different types of visuals are utilized, including a global map, a timeline, and ratings by aircraft. To enhance user interactivity, various filters were integrated, including the option to filter by seat and traveler type. The final dashboard is an aesthetically pleasing, user-friendly tool for in-depth analysis of these British Airways ratings.
 
 
