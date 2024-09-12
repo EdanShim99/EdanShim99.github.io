@@ -34,6 +34,5 @@ In this Excel-based project, I demonstrated advanced data analysis and visualiza
 
 <span class="highlight-blue-rounded">Tableau</span>
 
-## Work Experience
 
 
