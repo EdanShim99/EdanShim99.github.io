@@ -3,7 +3,7 @@ layout: default
 title: Tableau Dashboard
 ---
 
-Uses British airline data
+Uses British Airways data
 
 Interactive Dashboard Using Tableau
 
