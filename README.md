@@ -9,7 +9,7 @@
 ## Projects
 ### [AWS ELT Pipeline – S3 & Redshift Serverless](aws-redshift-project.html) <br>
 <a href="aws-redshift-project.html">
-  <img src="/images/thumbnail1.png" alt="Thumbnail" 
+  <img src="/images/architecture.png" alt="Thumbnail" 
        style="border-radius: 30px; border: 2px solid #000000;"
        width="600">
 </a>
