@@ -7,13 +7,13 @@
 <br>
 
 ## Projects
-<a href="project1.html">
+<a href="aws-redshift-project.html">
   <img src="/images/thumbnail1.png" alt="Thumbnail" 
        style="border-radius: 30px; border: 2px solid #000000;"
        width="600">
 </a>
 
-### [Interactive Dashboard Using Excel](project1.html) <br>
+### [Interactive Dashboard Using Excel](aws-redshift-project.html) <br>
 
 <span class="highlight-blue-rounded">Excel</span>
 <span class="highlight-green-rounded">xlookup</span>
