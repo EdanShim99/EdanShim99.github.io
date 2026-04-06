@@ -8,6 +8,60 @@ title: AWS ELT Pipeline
 <h2 style="text-align: center;">AWS ELT Pipeline – S3 & Redshift Serverless</h2>
 
 <p style="text-align: center; max-width: 800px; margin: auto;">
-Designed and implemented a cloud-native ELT pipeline using AWS S3 and Redshift Serverless. 
+Designed and implemented a cloud-native ELT pipeline on AWS using S3 and Redshift Serverless.
 The architecture follows a medallion design (Bronze → Silver → Gold) and demonstrates 
-incremental ingestion, idempotent MERGE upserts, and analytical warehouse modeling.
+incremental ingestion, idempotent MERGE-based upserts, and analytical warehouse modeling 
+for scalable reporting workflows.
+</p>
+
+<br><br>
+
+<h3 style="text-align: center;">Architecture Overview</h3>
+
+<div style="text-align: center;">
+  <img src="/images/architecture.png"
+       style="border-radius: 20px; border: 2px solid #000000; width: 80%; max-width: 900px;">
+</div>
+
+<br><br>
+
+<h3 style="text-align: center;">Key Engineering Concepts</h3>
+
+<div style="max-width: 800px; margin: auto;">
+  <ul>
+    <li>Append-only ingestion into S3 Bronze layer partitioned by ingestion date</li>
+    <li>Structured loading into Redshift using COPY and SUPER data type</li>
+    <li>Deduplication using <strong>ROW_NUMBER()</strong> window functions</li>
+    <li>Incremental, idempotent upserts using <strong>MERGE</strong></li>
+    <li>Gold-layer aggregated tables for analytical reporting</li>
+  </ul>
+</div>
+
+<br><br>
+
+<h3 style="text-align: center;">Silver Layer Output</h3>
+
+<div style="text-align: center;">
+  <img src="/images/silver.jpg"
+       style="border-radius: 20px; border: 2px solid #000000; width: 80%; max-width: 900px;">
+</div>
+
+<br><br>
+
+<h3 style="text-align: center;">Gold Layer Output</h3>
+
+<div style="text-align: center;">
+  <img src="/images/gold.jpg"
+       style="border-radius: 20px; border: 2px solid #000000; width: 80%; max-width: 900px;">
+</div>
+
+<br><br>
+
+<div style="text-align: center;">
+  <a href="https://github.com/EdanShim99/aws-redshift-project" 
+     style="text-decoration: none; font-weight: bold;">
+     View Full Implementation on GitHub →
+  </a>
+</div>
+
+<br><br>
