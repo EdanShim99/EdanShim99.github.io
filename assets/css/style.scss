@@ -5,7 +5,7 @@
 
 .wrapper {
   width: 95%;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 60px auto;
   padding: 0 20px;
   display: flex;
@@ -52,23 +52,23 @@ section {
 }
 
 .highlight-blue-rounded {
-  background-color: #2f3640;  
-  color: #b7c3d0;              
+  background-color: #1f3a44;   
+  color: #67e8f9;              
   border-radius: 10px;
   padding: 6px 12px;
   font-size: 0.85rem;
   display: inline-block;
-  margin: 4px 6px 4px 0;
+  margin: 4px 4px 4px 0;
 }
 
 .highlight-green-rounded {
-  background-color: #2a332d;  
-  color: #a7c5b0;
+  background-color: #1f3328;
+  color: #86efac;  
   border-radius: 10px;
   padding: 6px 12px;
   font-size: 0.85rem;
   display: inline-block;
-  margin: 4px 6px 4px 0;
+  margin: 4px 4px 4px 0;
 }
 
 /* ============================= */
@@ -93,7 +93,7 @@ a:hover {
 
 /* Sidebar (header) */
 header {
-  background-color: #242424;   /* slightly lighter than background */
+  background-color: #242424;  
   padding: 25px;
   border-radius: 12px;
 }
