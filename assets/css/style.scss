@@ -23,32 +23,24 @@ section {
   flex: 1;
 }
 
-@media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width: auto;
-    margin: 0;
-    padding: 0 20px;
+@media screen and (max-width: 960px) {
+
+  .wrapper {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
   }
 
   header {
-    float: none;
+    width: 100%;
     position: static;
-    width: auto;
-    padding-right: 20px;
-    word-wrap: break-word;
-  }
-  
-  section {
-    width: auto;
-    float: none;
-    padding: 20px 0;
-    margin: 0 0 20px;
-    border: none;
   }
 
-  header, section {
-    clear: both;
+  section {
+    width: 100%;
+    padding: 25px;
   }
+
 }
 
 .highlight-blue-rounded {
