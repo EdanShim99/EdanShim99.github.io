@@ -20,6 +20,4 @@
 <span class="highlight-green-rounded">SQL</span>
 <span class="highlight-green-rounded">Python</span>
 
-An ELT pipeline using AWS S3 and Redshift Serverless. The project demonstrates incremental ingestion, idempotent MERGE-based upserts, medallion data modeling (Bronze → Silver → Gold), and analytical aggregation design for warehouse reporting.
-
 An end-to-end ELT pipeline built on Amazon S3 and Redshift Serverless, orchestrated with Apache Airflow (MWAA). The architecture features append-only Bronze layer storage, idempotent MERGE-based Silver layer transformations, and Gold-layer analytical modeling following Medallion Architecture.
