@@ -14,9 +14,9 @@
        width="600">
 </a>
 
-<span class="highlight-blue-rounded">AWS</span>
-<span class="highlight-blue-rounded">Redshift</span>
+<span class="highlight-blue-rounded">Redshift Serverless</span>
 <span class="highlight-blue-rounded">S3</span>
+<span class="highlight-blue-rounded">Apache Airflow (MWAA)</span>
 <span class="highlight-green-rounded">SQL</span>
 <span class="highlight-green-rounded">Python</span>
 
