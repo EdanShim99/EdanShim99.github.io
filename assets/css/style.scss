@@ -83,12 +83,13 @@ body {
 
 /* Links */
 a {
-  color: #9ca3af;
+  color: #67e8f9;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #22d3ee;
 }
 
 /* Sidebar (header) */
