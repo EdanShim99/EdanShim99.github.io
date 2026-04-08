@@ -27,6 +27,7 @@ section {
 
   .wrapper {
     flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
@@ -36,12 +37,14 @@ section {
 
   header {
     width: 100%;
+    max-width: 600px;  
     position: static;
   }
 
   section {
     width: 100%;
     padding: 25px;
+    max-width: 600px;  
     box-sizing: border-box;
   }
 
