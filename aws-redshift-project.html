@@ -5,13 +5,12 @@ title: AWS ELT Pipeline
 
 <br>
 
-<h2 style="text-align: center;">AWS ELT Pipeline – S3 & Redshift Serverless</h2>
+<h2 style="text-align: center;">AWS ELT Pipeline – Redshift Serverless & Airflow (MWAA)</h2>
 
 <p style="text-align: center; max-width: 800px; margin: auto;">
-Designed and implemented a cloud-native ELT pipeline on AWS using S3 and Redshift Serverless.
-The architecture follows a medallion design (Bronze → Silver → Gold) and demonstrates 
-incremental ingestion, idempotent MERGE-based upserts, and analytical warehouse modeling 
-for scalable reporting workflows.
+Designed and implemented a cloud-native ELT pipeline on AWS using Amazon S3, Redshift Serverless, and Apache Airflow (MWAA).
+The architecture follows a Medallion design (Bronze → Silver → Gold) and implements append-only ingestion, idempotent MERGE-based 
+transformations with latest-record-wins logic, and analytical warehouse modeling for scalable reporting workflows.
 </p>
 
 <br><br>
@@ -30,7 +29,8 @@ for scalable reporting workflows.
 <div style="max-width: 800px; margin: auto;">
   <ul>
     <li>Append-only ingestion into S3 Bronze layer partitioned by ingestion date</li>
-    <li>Structured loading into Redshift using COPY and SUPER data type</li>
+    <li>Orchestration of ingestion and transformation tasks using Apache Airflow (MWAA)</li>
+    <li>Structured loading into Redshift using COPY and SUPER data type for semi-structured JSON</li>
     <li>Deduplication using <strong>ROW_NUMBER()</strong> window functions</li>
     <li>Incremental, idempotent upserts using <strong>MERGE</strong></li>
     <li>Gold-layer aggregated tables for analytical reporting</li>
